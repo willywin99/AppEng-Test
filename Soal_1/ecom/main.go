@@ -11,9 +11,9 @@ import (
 
 func main() {
 	products := []product.Product{
-		{ID: 1, Name: "Shirt", Price: 200000.0},
-		{ID: 2, Name: "Pants", Price: 300000.0},
-		{ID: 3, Name: "Shoes", Price: 500000.0},
+		{ID: 1, Name: "Shirt", Price: 2000000.0},
+		{ID: 2, Name: "Pants", Price: 3000000.0},
+		{ID: 3, Name: "Shoes", Price: 5000000.0},
 	}
 
 	voucher := voucher.Voucher{
