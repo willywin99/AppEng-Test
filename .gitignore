@@ -1,0 +1,50 @@
+# Node.js and React.js Project .gitignore
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+package-lock.json  # or yarn.lock
+npm-debug.log
+yarn-error.log
+
+# Editor and IDE Specific
+.idea/
+.vscode/
+.history
+*.swp
+*.swo
+*.log
+
+# Environment Files
+.env
+.env.* # If you have multiple environment files
+
+# Testing
+coverage/
+__snapshots__/
+
+# Build and Output
+build/
+dist/
+out/
+
+# Deployment
+.DS_Store
+*.pem # Private keys - NEVER commit these!
+*.key # Private keys
+config.json # If it contains sensitive info
+
+# Logs
+*.log
+
+# Optional - depending on your project
+.cache/
+.nyc_output/
+.pnp.*
+.pnp.cjs
+
+# For React projects specifically
+public/build/ # If you have a separate build directory within public

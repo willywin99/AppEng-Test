@@ -1,0 +1,13 @@
+node_modules/      # Common: Ignore the entire node_modules folder
+dist/            # If you have a dist folder for compiled code
+.DS_Store        # macOS: Store metadata about folder views
+.env             # If you use environment variables, don't commit them!
+.vscode/         # VS Code: Workspace settings
+.idea/           # IntelliJ IDEA: Workspace settings
+*.log           # Log files: Usually not needed in version control
+*.swp           # Swap files: Created by editors like Vim
+.history        # History files: Often not needed in version control
+config.json     # Configuration files that might contain sensitive info
+.htpasswd       # Apache htpasswd files
+npm-debug.log   # npm debug logs
+yarn-error.log  # yarn error logs
